@@ -11,6 +11,10 @@ linkedList.add(100);
 linkedList.add(600);
 linkedList.add(-500);
 
-const sorter = new Sorter(linkedList);
-sorter.sort();
+numbersCollection.sort();
+charactersCollection.sort();
+linkedList.sort();
+
+console.log(numbersCollection.data);
+console.log(charactersCollection.data);
 linkedList.print();
